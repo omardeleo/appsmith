@@ -29,6 +29,8 @@ services:
       - appsmith
 
   appsmith-internal-server:
+    labels:
+      shipyard.route: '/api'
     image: index.docker.io/appsmith/appsmith-server
     env_file:
       - ./docker.env
