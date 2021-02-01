@@ -16,7 +16,7 @@ server {
     proxy_set_header X-Forwarded-Host $host;
 
     location / {
-        resolver 127.0.0.11 valid=30s;
+        resolver 127.0.0.11;
         try_files $uri /index.html =404;
 
         sub_filter __APPSMITH_SENTRY_DSN__ '${APPSMITH_SENTRY_DSN}';
@@ -40,25 +40,25 @@ server {
     }
 
     location /f {
-       resolver 127.0.0.11 valid=30s;
+       resolver 127.0.0.11;
        set $optimizely cdn.optimizely.com;
        proxy_pass https://$optimizely;
     }
 
     location /api {
-        resolver 127.0.0.11 valid=30s;
+        resolver 127.0.0.11;
         set $thing appsmith-internal-server:8080;
         proxy_pass http://$thing;
     }
 
     location /oauth2 {
-        resolver 127.0.0.11 valid=30s;
+        resolver 127.0.0.11;
         set $thing appsmith-internal-server:8080;
         proxy_pass http://$thing;
     }
     
     location /login {
-        resolver 127.0.0.11 valid=30s;
+        resolver 127.0.0.11;
         set $thing appsmith-internal-server:8080;
         proxy_pass http://$thing;
     }
