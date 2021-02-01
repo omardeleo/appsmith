@@ -47,20 +47,20 @@ server {
 
     location /api {
         resolver 127.0.0.11;
-        set $thing appsmith-internal-server:8080;
-        proxy_pass http://$thing;
+        set $upstream appsmith-internal-server:8080;
+        proxy_pass http://$upstream;
     }
 
     location /oauth2 {
         resolver 127.0.0.11;
-        set $thing appsmith-internal-server:8080;
-        proxy_pass http://$thing;
+        set $upstream appsmith-internal-server:8080;
+        proxy_pass http://$upstream;
     }
     
     location /login {
         resolver 127.0.0.11;
-        set $thing appsmith-internal-server:8080;
-        proxy_pass http://$thing;
+        set $upstream appsmith-internal-server:8080;
+        proxy_pass http://$upstream;
     }
 }
 
