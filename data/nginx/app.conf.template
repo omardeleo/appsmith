@@ -1,4 +1,6 @@
 server {
+    resolver 127.0.0.11 valid=30s;
+
     listen 80;
 #    server_name  ;
     client_max_body_size 10m;
@@ -39,19 +41,23 @@ server {
     }
 
     location /f {
-       proxy_pass https://cdn.optimizely.com/;
+       set $optimizely cdn.optimizely.com;
+       proxy_pass https://$optimizely;
     }
 
     location /api {
-        proxy_pass http://appsmith-internal-server:8080;
+        set $thing appsmith-internal-server:8080;
+        proxy_pass http://$thing;
     }
 
     location /oauth2 {
-        proxy_pass http://appsmith-internal-server:8080;
+        set $thing appsmith-internal-server:8080;
+        proxy_pass http://$thing;
     }
     
     location /login {
-        proxy_pass http://appsmith-internal-server:8080;
+        set $thing appsmith-internal-server:8080;
+        proxy_pass http://$thing;
     }
 }
 
