@@ -1,0 +1,693 @@
+{
+    "data": {
+      "enrichment": {
+        "domain": "bench.co",
+        "companyId": "Q29tcGFueS00MjM0NTk2",
+        "companyName": "Bench Accounting",
+        "companyTools": {
+          "count": 33,
+          "pageInfo": {
+            "hasNextPage": false,
+            "endCursor": "MjU"
+          },
+          "edges": [
+            {
+              "node": {
+                "tool": {
+                  "id": "VG9vbC01NjY=",
+                  "name": "nginx"
+                },
+                "sourcesSummary": {
+                  "websiteSources": 2,
+                  "selfReported": 1
+                },
+                "sources": {
+                  "websiteSource": [
+                    {
+                      "domain": "bench.co",
+                      "lastDetectedAt": "2020-02-05",
+                      "confidence": 100
+                    },
+                    {
+                      "domain": "blog.bench.co",
+                      "lastDetectedAt": "2019-09-30",
+                      "confidence": 100
+                    }
+                  ],
+                  "selfReported": [
+                    {
+                      "lastReportedAt": "2014-12-22",
+                      "confidence": 100
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "node": {
+                "tool": {
+                  "id": "VG9vbC0yMDg=",
+                  "name": "Docker"
+                },
+                "sourcesSummary": {
+                  "githubRepositories": 1,
+                  "selfReported": 1
+                },
+                "sources": {
+                  "githubRepository": [
+                    {
+                      "repoName": "gojenkins",
+                      "link": "https://github.com/BenchLabs/gojenkins",
+                      "files": [
+                        "Dockerfile"
+                      ],
+                      "lastDetectedAt": "2020-03-22",
+                      "confidence": null,
+                      "languageDetected": false
+                    }
+                  ],
+                  "selfReported": [
+                    {
+                      "lastReportedAt": "2014-12-22",
+                      "confidence": 100
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "node": {
+                "tool": {
+                  "id": "VG9vbC0xNDY1",
+                  "name": "CircleCI"
+                },
+                "sourcesSummary": {
+                  "githubRepositories": 1,
+                  "selfReported": 1
+                },
+                "sources": {
+                  "githubRepository": [
+                    {
+                      "repoName": "plaid-java",
+                      "link": "https://github.com/BenchLabs/plaid-java",
+                      "files": [
+                        ".circleci/config.yml"
+                      ],
+                      "lastDetectedAt": "2020-03-19",
+                      "confidence": 100,
+                      "languageDetected": false
+                    }
+                  ],
+                  "selfReported": [
+                    {
+                      "lastReportedAt": "2014-12-22",
+                      "confidence": 100
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "node": {
+                "tool": {
+                  "id": "VG9vbC00Nw==",
+                  "name": "Amazon Web Services"
+                },
+                "sourcesSummary": {
+                  "dnsRecords": 4,
+                  "cloudIps": 2
+                },
+                "sources": {
+                  "dnsRecords": [
+                    {
+                      "domain": "bench.co",
+                      "lastDetectedAt": "2019-10-05",
+                      "confidence": 100,
+                      "content": "ns-604.awsdns-11.net"
+                    },
+                    {
+                      "domain": "bench.co",
+                      "lastDetectedAt": "2019-10-05",
+                      "confidence": 100,
+                      "content": "ns-1409.awsdns-48.org"
+                    },
+                    {
+                      "domain": "bench.co",
+                      "lastDetectedAt": "2019-10-05",
+                      "confidence": 100,
+                      "content": "ns-1900.awsdns-45.co.uk"
+                    },
+                    {
+                      "domain": "bench.co",
+                      "lastDetectedAt": "2019-10-05",
+                      "confidence": 100,
+                      "content": "ns-227.awsdns-28.com"
+                    }
+                  ],
+                  "cloudIp": [
+                    {
+                      "domain": "bench.co",
+                      "lastDetectedAt": "2020-02-03",
+                      "confidence": 100
+                    },
+                    {
+                      "domain": "blog.bench.co",
+                      "lastDetectedAt": "2019-09-30",
+                      "confidence": 100
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "node": {
+                "tool": {
+                  "id": "VG9vbC0xNDY0",
+                  "name": "Vagrant"
+                },
+                "sourcesSummary": {
+                  "selfReported": 1
+                },
+                "sources": {
+                  "selfReported": [
+                    {
+                      "lastReportedAt": "2014-12-22",
+                      "confidence": 100
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "node": {
+                "tool": {
+                  "id": "VG9vbC0zOTk=",
+                  "name": "Java"
+                },
+                "sourcesSummary": {
+                  "selfReported": 1
+                },
+                "sources": {
+                  "selfReported": [
+                    {
+                      "lastReportedAt": "2014-12-22",
+                      "confidence": 100
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "node": {
+                "tool": {
+                  "id": "VG9vbC0xNDg5",
+                  "name": "ActiveMQ"
+                },
+                "sourcesSummary": {
+                  "selfReported": 1
+                },
+                "sources": {
+                  "selfReported": [
+                    {
+                      "lastReportedAt": "2014-12-22",
+                      "confidence": 100
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "node": {
+                "tool": {
+                  "id": "VG9vbC01NjM=",
+                  "name": "New Relic"
+                },
+                "sourcesSummary": {
+                  "selfReported": 1
+                },
+                "sources": {
+                  "selfReported": [
+                    {
+                      "lastReportedAt": "2014-12-22",
+                      "confidence": 100
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "node": {
+                "tool": {
+                  "id": "VG9vbC0xMTY5",
+                  "name": "CoffeeScript"
+                },
+                "sourcesSummary": {
+                  "selfReported": 1
+                },
+                "sources": {
+                  "selfReported": [
+                    {
+                      "lastReportedAt": "2014-12-22",
+                      "confidence": 100
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "node": {
+                "tool": {
+                  "id": "VG9vbC0yMjgw",
+                  "name": "AWS Elastic Beanstalk"
+                },
+                "sourcesSummary": {
+                  "selfReported": 1
+                },
+                "sources": {
+                  "selfReported": [
+                    {
+                      "lastReportedAt": "2014-12-22",
+                      "confidence": 100
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "node": {
+                "tool": {
+                  "id": "VG9vbC01NTI=",
+                  "name": "MySQL"
+                },
+                "sourcesSummary": {
+                  "selfReported": 1
+                },
+                "sources": {
+                  "selfReported": [
+                    {
+                      "lastReportedAt": "2014-12-22",
+                      "confidence": 100
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "node": {
+                "tool": {
+                  "id": "VG9vbC0xNTM3",
+                  "name": "GitHub"
+                },
+                "sourcesSummary": {
+                  "selfReported": 1
+                },
+                "sources": {
+                  "selfReported": [
+                    {
+                      "lastReportedAt": "2014-12-22",
+                      "confidence": 100
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "node": {
+                "tool": {
+                  "id": "VG9vbC01MzY=",
+                  "name": "MongoDB"
+                },
+                "sourcesSummary": {
+                  "selfReported": 1
+                },
+                "sources": {
+                  "selfReported": [
+                    {
+                      "lastReportedAt": "2014-12-22",
+                      "confidence": 100
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "node": {
+                "tool": {
+                  "id": "VG9vbC00MDU=",
+                  "name": "Jenkins"
+                },
+                "sourcesSummary": {
+                  "selfReported": 1
+                },
+                "sources": {
+                  "selfReported": [
+                    {
+                      "lastReportedAt": "2014-12-22",
+                      "confidence": 100
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "node": {
+                "tool": {
+                  "id": "VG9vbC03MjE=",
+                  "name": "Scala"
+                },
+                "sourcesSummary": {
+                  "selfReported": 1
+                },
+                "sources": {
+                  "selfReported": [
+                    {
+                      "lastReportedAt": "2014-12-22",
+                      "confidence": 100
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "node": {
+                "tool": {
+                  "id": "VG9vbC0xNzA2",
+                  "name": "Bower"
+                },
+                "sourcesSummary": {
+                  "selfReported": 1
+                },
+                "sources": {
+                  "selfReported": [
+                    {
+                      "lastReportedAt": "2014-12-22",
+                      "confidence": 100
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "node": {
+                "tool": {
+                  "id": "VG9vbC01OA==",
+                  "name": "AngularJS"
+                },
+                "sourcesSummary": {
+                  "selfReported": 1
+                },
+                "sources": {
+                  "selfReported": [
+                    {
+                      "lastReportedAt": "2014-12-22",
+                      "confidence": 100
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "node": {
+                "tool": {
+                  "id": "VG9vbC0xNDk2",
+                  "name": "Datadog"
+                },
+                "sourcesSummary": {
+                  "selfReported": 1
+                },
+                "sources": {
+                  "selfReported": [
+                    {
+                      "lastReportedAt": "2014-12-22",
+                      "confidence": 100
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "node": {
+                "tool": {
+                  "id": "VG9vbC0xMDcz",
+                  "name": "Gmail"
+                },
+                "sourcesSummary": {
+                  "mxRecords": 5
+                },
+                "sources": {
+                  "mxRecords": [
+                    {
+                      "domain": "bench.co",
+                      "lastDetectedAt": "2020-02-03",
+                      "confidence": 100,
+                      "content": "aspmx.l.google.com"
+                    },
+                    {
+                      "domain": "bench.co",
+                      "lastDetectedAt": "2020-02-03",
+                      "confidence": 100,
+                      "content": "alt1.aspmx.l.google.com"
+                    },
+                    {
+                      "domain": "bench.co",
+                      "lastDetectedAt": "2020-02-03",
+                      "confidence": 100,
+                      "content": "alt2.aspmx.l.google.com"
+                    },
+                    {
+                      "domain": "bench.co",
+                      "lastDetectedAt": "2020-02-03",
+                      "confidence": 100,
+                      "content": "aspmx2.googlemail.com"
+                    },
+                    {
+                      "domain": "bench.co",
+                      "lastDetectedAt": "2020-02-03",
+                      "confidence": 100,
+                      "content": "aspmx3.googlemail.com"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "node": {
+                "tool": {
+                  "id": "VG9vbC01Njc=",
+                  "name": "Node.js"
+                },
+                "sourcesSummary": {
+                  "githubRepositories": 4
+                },
+                "sources": {
+                  "githubRepository": [
+                    {
+                      "repoName": "exceljs",
+                      "link": "https://github.com/BenchLabs/exceljs",
+                      "files": [
+                        "test/regression/package.json"
+                      ],
+                      "lastDetectedAt": "2020-03-21",
+                      "confidence": 100,
+                      "languageDetected": false
+                    },
+                    {
+                      "repoName": "exceljs",
+                      "link": "https://github.com/BenchLabs/exceljs",
+                      "files": [
+                        "package.json"
+                      ],
+                      "lastDetectedAt": "2020-03-21",
+                      "confidence": 100,
+                      "languageDetected": false
+                    },
+                    {
+                      "repoName": "node-unzip-2",
+                      "link": "https://github.com/BenchLabs/node-unzip-2",
+                      "files": [
+                        "package.json"
+                      ],
+                      "lastDetectedAt": "2020-03-21",
+                      "confidence": 100,
+                      "languageDetected": false
+                    },
+                    {
+                      "repoName": "node-unzip-2",
+                      "link": "https://github.com/BenchLabs/node-unzip-2",
+                      "files": [
+                        "package.json"
+                      ],
+                      "lastDetectedAt": "2020-03-17",
+                      "confidence": 100,
+                      "languageDetected": false
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "node": {
+                "tool": {
+                  "id": "VG9vbC00Njc=",
+                  "name": "Lodash"
+                },
+                "sourcesSummary": {
+                  "githubRepositories": 2
+                },
+                "sources": {
+                  "githubRepository": [
+                    {
+                      "repoName": "exceljs",
+                      "link": "https://github.com/BenchLabs/exceljs",
+                      "files": [
+                        "test/regression/package.json"
+                      ],
+                      "lastDetectedAt": "2020-03-17",
+                      "confidence": 100,
+                      "languageDetected": false
+                    },
+                    {
+                      "repoName": "exceljs",
+                      "link": "https://github.com/BenchLabs/exceljs",
+                      "files": [
+                        "package.json"
+                      ],
+                      "lastDetectedAt": "2020-03-17",
+                      "confidence": 100,
+                      "languageDetected": false
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "node": {
+                "tool": {
+                  "id": "VG9vbC0zOTI3",
+                  "name": "Chai"
+                },
+                "sourcesSummary": {
+                  "githubRepositories": 2
+                },
+                "sources": {
+                  "githubRepository": [
+                    {
+                      "repoName": "exceljs",
+                      "link": "https://github.com/BenchLabs/exceljs",
+                      "files": [
+                        "package.json"
+                      ],
+                      "lastDetectedAt": "2020-03-17",
+                      "confidence": 100,
+                      "languageDetected": false
+                    },
+                    {
+                      "repoName": "exceljs",
+                      "link": "https://github.com/BenchLabs/exceljs",
+                      "files": [
+                        "package.json"
+                      ],
+                      "lastDetectedAt": "2020-03-17",
+                      "confidence": 100,
+                      "languageDetected": false
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "node": {
+                "tool": {
+                  "id": "VG9vbC0xNzA=",
+                  "name": "Contentful"
+                },
+                "sourcesSummary": {
+                  "websiteSources": 2
+                },
+                "sources": {
+                  "websiteSource": [
+                    {
+                      "domain": "bench.co",
+                      "lastDetectedAt": "2020-02-05",
+                      "confidence": 100
+                    },
+                    {
+                      "domain": "blog.bench.co",
+                      "lastDetectedAt": "2019-09-30",
+                      "confidence": 100
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "node": {
+                "tool": {
+                  "id": "VG9vbC0xMTYw",
+                  "name": "HCL"
+                },
+                "sourcesSummary": {
+                  "githubRepositories": 2
+                },
+                "sources": {
+                  "githubRepository": [
+                    {
+                      "repoName": "talk-vault-ephemeral-credentials",
+                      "link": "https://github.com/BenchLabs/talk-vault-ephemeral-credentials",
+                      "files": [],
+                      "lastDetectedAt": "2019-12-27",
+                      "confidence": 100,
+                      "languageDetected": true
+                    },
+                    {
+                      "repoName": "blog-k8s-kops-terraform",
+                      "link": "https://github.com/BenchLabs/blog-k8s-kops-terraform",
+                      "files": [],
+                      "lastDetectedAt": "2019-12-27",
+                      "confidence": 100,
+                      "languageDetected": true
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "node": {
+                "tool": {
+                  "id": "VG9vbC0xNTE3",
+                  "name": "Travis CI"
+                },
+                "sourcesSummary": {
+                  "githubRepositories": 2
+                },
+                "sources": {
+                  "githubRepository": [
+                    {
+                      "repoName": "gojenkins",
+                      "link": "https://github.com/BenchLabs/gojenkins",
+                      "files": [
+                        ".travis.yml"
+                      ],
+                      "lastDetectedAt": "2020-03-17",
+                      "confidence": 100,
+                      "languageDetected": false
+                    },
+                    {
+                      "repoName": "node-unzip-2",
+                      "link": "https://github.com/BenchLabs/node-unzip-2",
+                      "files": [
+                        ".travis.yml"
+                      ],
+                      "lastDetectedAt": "2020-03-17",
+                      "confidence": 100,
+                      "languageDetected": false
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  }

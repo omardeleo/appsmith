@@ -1,0 +1,2204 @@
+{
+  "data": {
+    "enrichment": {
+      "domain": "airbnb.com",
+      "companyId": "Q29tcGFueS0xMzA1NA==",
+      "companyName": "Airbnb",
+      "companyTools": {
+        "count": 214,
+        "pageInfo": {
+          "hasNextPage": true,
+          "endCursor": "NQ"
+        },
+        "edges": [
+          {
+            "node": {
+              "tool": {
+                "id": "VG9vbC02OTg=",
+                "name": "Ruby"
+              },
+              "sourcesSummary": {
+                "githubRepositories": 68,
+                "websiteSources": 45,
+                "selfReported": 1
+              },
+              "sources": {
+                "websiteSource": [
+                  {
+                    "domain": "airbnb.com",
+                    "lastDetectedAt": "2019-11-20",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "m.airbnb.com",
+                    "lastDetectedAt": "2019-11-20",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "api-fastly.airbnb.com",
+                    "lastDetectedAt": "2019-11-20",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "api-fastly-staging.airbnb.com",
+                    "lastDetectedAt": "2019-11-20",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "next.airbnb.com",
+                    "lastDetectedAt": "2019-11-20",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "da.airbnb.com",
+                    "lastDetectedAt": "2019-11-20",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "cs.airbnb.com",
+                    "lastDetectedAt": "2019-11-20",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "de.airbnb.com",
+                    "lastDetectedAt": "2019-11-20",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "es.airbnb.com",
+                    "lastDetectedAt": "2019-11-20",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "ca.airbnb.com",
+                    "lastDetectedAt": "2019-11-20",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "ar.airbnb.com",
+                    "lastDetectedAt": "2019-11-20",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "he.airbnb.com",
+                    "lastDetectedAt": "2019-11-20",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "fi.airbnb.com",
+                    "lastDetectedAt": "2019-11-20",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "fr.airbnb.com",
+                    "lastDetectedAt": "2019-11-20",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "fastly.airbnb.com",
+                    "lastDetectedAt": "2019-11-20",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "el.airbnb.com",
+                    "lastDetectedAt": "2019-11-20",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "it.airbnb.com",
+                    "lastDetectedAt": "2019-11-20",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "ko.airbnb.com",
+                    "lastDetectedAt": "2019-11-20",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "id.airbnb.com",
+                    "lastDetectedAt": "2019-11-20",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "ms.airbnb.com",
+                    "lastDetectedAt": "2019-11-20",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "hr.airbnb.com",
+                    "lastDetectedAt": "2019-11-20",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "nl.airbnb.com",
+                    "lastDetectedAt": "2019-11-20",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "pl.airbnb.com",
+                    "lastDetectedAt": "2019-11-20",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "fastly-staging.airbnb.com",
+                    "lastDetectedAt": "2019-11-20",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "hu.airbnb.com",
+                    "lastDetectedAt": "2019-11-20",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "no.airbnb.com",
+                    "lastDetectedAt": "2019-11-20",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "hi.airbnb.com",
+                    "lastDetectedAt": "2019-11-20",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "ja.airbnb.com",
+                    "lastDetectedAt": "2019-11-20",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "is.airbnb.com",
+                    "lastDetectedAt": "2019-11-20",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "s.airbnb.com",
+                    "lastDetectedAt": "2019-11-20",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "abnb.me",
+                    "lastDetectedAt": "2019-11-20",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "pt.airbnb.com",
+                    "lastDetectedAt": "2019-11-20",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "tr.airbnb.com",
+                    "lastDetectedAt": "2019-11-20",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "tl.airbnb.com",
+                    "lastDetectedAt": "2019-11-20",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "sv.airbnb.com",
+                    "lastDetectedAt": "2019-11-20",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "ru.airbnb.com",
+                    "lastDetectedAt": "2019-11-20",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "th.airbnb.com",
+                    "lastDetectedAt": "2019-11-20",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "zh.airbnb.com",
+                    "lastDetectedAt": "2019-11-20",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "aribnb.com",
+                    "lastDetectedAt": "2019-11-20",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "support.airbnb.com",
+                    "lastDetectedAt": "2019-11-20",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "create.airbnb.com",
+                    "lastDetectedAt": "2019-11-20",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "www.airbnb.com",
+                    "lastDetectedAt": "2019-11-20",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "airbedandbreakfast.com",
+                    "lastDetectedAt": "2019-11-20",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "airbrb.com",
+                    "lastDetectedAt": "2019-11-20",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "fastly-dev.airbnb.com",
+                    "lastDetectedAt": "2019-11-20",
+                    "confidence": 100
+                  }
+                ],
+                "githubRepository": [
+                  {
+                    "repoName": "gem-aws-instmd",
+                    "link": "https://github.com/airbnb/gem-aws-instmd",
+                    "files": [
+                      "Gemfile"
+                    ],
+                    "lastDetectedAt": "2020-03-21",
+                    "confidence": 100,
+                    "languageDetected": false
+                  },
+                  {
+                    "repoName": "apple-tv-auth",
+                    "link": "https://github.com/airbnb/apple-tv-auth",
+                    "files": [
+                      "Gemfile"
+                    ],
+                    "lastDetectedAt": "2020-03-21",
+                    "confidence": 100,
+                    "languageDetected": false
+                  },
+                  {
+                    "repoName": "marginalia",
+                    "link": "https://github.com/airbnb/marginalia",
+                    "files": [
+                      "Gemfile"
+                    ],
+                    "lastDetectedAt": "2020-03-21",
+                    "confidence": 100,
+                    "languageDetected": false
+                  },
+                  {
+                    "repoName": "appear",
+                    "link": "https://github.com/airbnb/appear",
+                    "files": [
+                      "Gemfile"
+                    ],
+                    "lastDetectedAt": "2020-03-21",
+                    "confidence": 100,
+                    "languageDetected": false
+                  },
+                  {
+                    "repoName": "AloeStackView",
+                    "link": "https://github.com/airbnb/AloeStackView",
+                    "files": [
+                      "Gemfile"
+                    ],
+                    "lastDetectedAt": "2020-03-21",
+                    "confidence": 100,
+                    "languageDetected": false
+                  },
+                  {
+                    "repoName": "BuckSample",
+                    "link": "https://github.com/airbnb/BuckSample",
+                    "files": [
+                      "Gemfile"
+                    ],
+                    "lastDetectedAt": "2020-03-21",
+                    "confidence": 100,
+                    "languageDetected": false
+                  },
+                  {
+                    "repoName": "newrelic_aws_cloudwatch_plugin",
+                    "link": "https://github.com/airbnb/newrelic_aws_cloudwatch_plugin",
+                    "files": [
+                      "Gemfile"
+                    ],
+                    "lastDetectedAt": "2020-03-21",
+                    "confidence": 100,
+                    "languageDetected": false
+                  },
+                  {
+                    "repoName": "audited",
+                    "link": "https://github.com/airbnb/audited",
+                    "files": [
+                      "Gemfile"
+                    ],
+                    "lastDetectedAt": "2020-03-21",
+                    "confidence": 100,
+                    "languageDetected": false
+                  },
+                  {
+                    "repoName": "nerve",
+                    "link": "https://github.com/airbnb/nerve",
+                    "files": [
+                      "Gemfile"
+                    ],
+                    "lastDetectedAt": "2020-03-21",
+                    "confidence": 100,
+                    "languageDetected": false
+                  },
+                  {
+                    "repoName": "interferon",
+                    "link": "https://github.com/airbnb/interferon",
+                    "files": [
+                      "Gemfile"
+                    ],
+                    "lastDetectedAt": "2020-03-21",
+                    "confidence": 100,
+                    "languageDetected": false
+                  },
+                  {
+                    "repoName": "appear",
+                    "link": "https://github.com/airbnb/appear",
+                    "files": [
+                      "Gemfile"
+                    ],
+                    "lastDetectedAt": "2020-03-21",
+                    "confidence": 100,
+                    "languageDetected": false
+                  },
+                  {
+                    "repoName": "optica",
+                    "link": "https://github.com/airbnb/optica",
+                    "files": [
+                      "Gemfile"
+                    ],
+                    "lastDetectedAt": "2020-03-21",
+                    "confidence": 100,
+                    "languageDetected": false
+                  },
+                  {
+                    "repoName": "faker",
+                    "link": "https://github.com/airbnb/faker",
+                    "files": [
+                      "Gemfile"
+                    ],
+                    "lastDetectedAt": "2020-03-21",
+                    "confidence": 100,
+                    "languageDetected": false
+                  },
+                  {
+                    "repoName": "cloud-maker",
+                    "link": "https://github.com/airbnb/cloud-maker",
+                    "files": [
+                      "Gemfile"
+                    ],
+                    "lastDetectedAt": "2020-03-21",
+                    "confidence": 100,
+                    "languageDetected": false
+                  },
+                  {
+                    "repoName": "alerts",
+                    "link": "https://github.com/airbnb/alerts",
+                    "files": [
+                      "Gemfile"
+                    ],
+                    "lastDetectedAt": "2020-03-21",
+                    "confidence": 100,
+                    "languageDetected": false
+                  },
+                  {
+                    "repoName": "native-navigation",
+                    "link": "https://github.com/airbnb/native-navigation",
+                    "files": [
+                      "Gemfile"
+                    ],
+                    "lastDetectedAt": "2020-03-21",
+                    "confidence": 100,
+                    "languageDetected": false
+                  },
+                  {
+                    "repoName": "docker-client",
+                    "link": "https://github.com/airbnb/docker-client",
+                    "files": [
+                      "Gemfile"
+                    ],
+                    "lastDetectedAt": "2020-03-21",
+                    "confidence": 100,
+                    "languageDetected": false
+                  },
+                  {
+                    "repoName": "alerts",
+                    "link": "https://github.com/airbnb/alerts",
+                    "files": [
+                      "Gemfile"
+                    ],
+                    "lastDetectedAt": "2020-03-21",
+                    "confidence": 100,
+                    "languageDetected": false
+                  },
+                  {
+                    "repoName": "collapstring",
+                    "link": "https://github.com/airbnb/collapstring",
+                    "files": [
+                      "Gemfile"
+                    ],
+                    "lastDetectedAt": "2020-03-21",
+                    "confidence": 100,
+                    "languageDetected": false
+                  },
+                  {
+                    "repoName": "marathon",
+                    "link": "https://github.com/airbnb/marathon",
+                    "files": [
+                      "docs/Gemfile"
+                    ],
+                    "lastDetectedAt": "2020-03-21",
+                    "confidence": 100,
+                    "languageDetected": false
+                  },
+                  {
+                    "repoName": "dd-agent",
+                    "link": "https://github.com/airbnb/dd-agent",
+                    "files": [
+                      "Gemfile"
+                    ],
+                    "lastDetectedAt": "2020-03-21",
+                    "confidence": 100,
+                    "languageDetected": false
+                  },
+                  {
+                    "repoName": "brakeman",
+                    "link": "https://github.com/airbnb/brakeman",
+                    "files": [
+                      "test/apps/rails4_with_engines/Gemfile"
+                    ],
+                    "lastDetectedAt": "2020-03-21",
+                    "confidence": 100,
+                    "languageDetected": false
+                  },
+                  {
+                    "repoName": "brakeman",
+                    "link": "https://github.com/airbnb/brakeman",
+                    "files": [
+                      "test/apps/rails3.1/Gemfile"
+                    ],
+                    "lastDetectedAt": "2020-03-21",
+                    "confidence": 100,
+                    "languageDetected": false
+                  },
+                  {
+                    "repoName": "plog-ruby",
+                    "link": "https://github.com/airbnb/plog-ruby",
+                    "files": [
+                      "Gemfile"
+                    ],
+                    "lastDetectedAt": "2020-03-21",
+                    "confidence": 100,
+                    "languageDetected": false
+                  },
+                  {
+                    "repoName": "gem-aws-creds",
+                    "link": "https://github.com/airbnb/gem-aws-creds",
+                    "files": [
+                      "Gemfile"
+                    ],
+                    "lastDetectedAt": "2020-03-21",
+                    "confidence": 100,
+                    "languageDetected": false
+                  },
+                  {
+                    "repoName": "AloeStackView",
+                    "link": "https://github.com/airbnb/AloeStackView",
+                    "files": [
+                      "Gemfile"
+                    ],
+                    "lastDetectedAt": "2020-03-21",
+                    "confidence": 100,
+                    "languageDetected": false
+                  },
+                  {
+                    "repoName": "MagazineLayout",
+                    "link": "https://github.com/airbnb/MagazineLayout",
+                    "files": [
+                      "Gemfile"
+                    ],
+                    "lastDetectedAt": "2020-03-21",
+                    "confidence": 100,
+                    "languageDetected": false
+                  },
+                  {
+                    "repoName": "cryo",
+                    "link": "https://github.com/airbnb/cryo",
+                    "files": [
+                      "Gemfile"
+                    ],
+                    "lastDetectedAt": "2020-03-21",
+                    "confidence": 100,
+                    "languageDetected": false
+                  },
+                  {
+                    "repoName": "poseidon",
+                    "link": "https://github.com/airbnb/poseidon",
+                    "files": [
+                      "Gemfile"
+                    ],
+                    "lastDetectedAt": "2020-03-21",
+                    "confidence": 100,
+                    "languageDetected": false
+                  },
+                  {
+                    "repoName": "apple-tv-auth",
+                    "link": "https://github.com/airbnb/apple-tv-auth",
+                    "files": [
+                      "Gemfile"
+                    ],
+                    "lastDetectedAt": "2020-03-21",
+                    "confidence": 100,
+                    "languageDetected": false
+                  },
+                  {
+                    "repoName": "hypernova",
+                    "link": "https://github.com/airbnb/hypernova",
+                    "files": [
+                      "examples/simple/Gemfile"
+                    ],
+                    "lastDetectedAt": "2020-03-21",
+                    "confidence": 100,
+                    "languageDetected": false
+                  },
+                  {
+                    "repoName": "hypernova-ruby",
+                    "link": "https://github.com/airbnb/hypernova-ruby",
+                    "files": [
+                      "Gemfile"
+                    ],
+                    "lastDetectedAt": "2020-03-21",
+                    "confidence": 100,
+                    "languageDetected": false
+                  },
+                  {
+                    "repoName": "BuckSample",
+                    "link": "https://github.com/airbnb/BuckSample",
+                    "files": [
+                      "Gemfile"
+                    ],
+                    "lastDetectedAt": "2020-03-21",
+                    "confidence": 100,
+                    "languageDetected": false
+                  },
+                  {
+                    "repoName": "Lona",
+                    "link": "https://github.com/airbnb/Lona",
+                    "files": [
+                      "studio/Gemfile"
+                    ],
+                    "lastDetectedAt": "2020-03-21",
+                    "confidence": 100,
+                    "languageDetected": false
+                  },
+                  {
+                    "repoName": "poseidon_cluster",
+                    "link": "https://github.com/airbnb/poseidon_cluster",
+                    "files": [
+                      "Gemfile"
+                    ],
+                    "lastDetectedAt": "2020-03-21",
+                    "confidence": 100,
+                    "languageDetected": false
+                  },
+                  {
+                    "repoName": "newrelic_plugin",
+                    "link": "https://github.com/airbnb/newrelic_plugin",
+                    "files": [
+                      "Gemfile"
+                    ],
+                    "lastDetectedAt": "2020-03-21",
+                    "confidence": 100,
+                    "languageDetected": false
+                  },
+                  {
+                    "repoName": "brakeman",
+                    "link": "https://github.com/airbnb/brakeman",
+                    "files": [
+                      "test/apps/rails3.1/Gemfile"
+                    ],
+                    "lastDetectedAt": "2020-03-21",
+                    "confidence": 100,
+                    "languageDetected": false
+                  },
+                  {
+                    "repoName": "hammerspace",
+                    "link": "https://github.com/airbnb/hammerspace",
+                    "files": [
+                      "Gemfile"
+                    ],
+                    "lastDetectedAt": "2020-03-21",
+                    "confidence": 100,
+                    "languageDetected": false
+                  },
+                  {
+                    "repoName": "audited",
+                    "link": "https://github.com/airbnb/audited",
+                    "files": [
+                      "Gemfile"
+                    ],
+                    "lastDetectedAt": "2020-03-21",
+                    "confidence": 100,
+                    "languageDetected": false
+                  },
+                  {
+                    "repoName": "kafkat",
+                    "link": "https://github.com/airbnb/kafkat",
+                    "files": [
+                      "Gemfile"
+                    ],
+                    "lastDetectedAt": "2020-03-21",
+                    "confidence": 100,
+                    "languageDetected": false
+                  },
+                  {
+                    "repoName": "gem-aws-creds",
+                    "link": "https://github.com/airbnb/gem-aws-creds",
+                    "files": [],
+                    "lastDetectedAt": "2019-12-28",
+                    "confidence": 100,
+                    "languageDetected": true
+                  },
+                  {
+                    "repoName": "BuckSample",
+                    "link": "https://github.com/airbnb/BuckSample",
+                    "files": [],
+                    "lastDetectedAt": "2019-12-28",
+                    "confidence": 100,
+                    "languageDetected": true
+                  },
+                  {
+                    "repoName": "apple-tv-auth",
+                    "link": "https://github.com/airbnb/apple-tv-auth",
+                    "files": [],
+                    "lastDetectedAt": "2019-12-28",
+                    "confidence": 100,
+                    "languageDetected": true
+                  },
+                  {
+                    "repoName": "native-navigation",
+                    "link": "https://github.com/airbnb/native-navigation",
+                    "files": [],
+                    "lastDetectedAt": "2019-12-28",
+                    "confidence": 100,
+                    "languageDetected": true
+                  },
+                  {
+                    "repoName": "appear",
+                    "link": "https://github.com/airbnb/appear",
+                    "files": [],
+                    "lastDetectedAt": "2019-12-28",
+                    "confidence": 100,
+                    "languageDetected": true
+                  },
+                  {
+                    "repoName": "optica",
+                    "link": "https://github.com/airbnb/optica",
+                    "files": [],
+                    "lastDetectedAt": "2019-12-28",
+                    "confidence": 100,
+                    "languageDetected": true
+                  },
+                  {
+                    "repoName": "AloeStackView",
+                    "link": "https://github.com/airbnb/AloeStackView",
+                    "files": [],
+                    "lastDetectedAt": "2019-12-28",
+                    "confidence": 100,
+                    "languageDetected": true
+                  },
+                  {
+                    "repoName": "cloud-maker",
+                    "link": "https://github.com/airbnb/cloud-maker",
+                    "files": [],
+                    "lastDetectedAt": "2019-12-28",
+                    "confidence": 100,
+                    "languageDetected": true
+                  },
+                  {
+                    "repoName": "appear",
+                    "link": "https://github.com/airbnb/appear",
+                    "files": [],
+                    "lastDetectedAt": "2019-12-28",
+                    "confidence": 100,
+                    "languageDetected": true
+                  },
+                  {
+                    "repoName": "gem-aws-instmd",
+                    "link": "https://github.com/airbnb/gem-aws-instmd",
+                    "files": [],
+                    "lastDetectedAt": "2019-12-28",
+                    "confidence": 100,
+                    "languageDetected": true
+                  },
+                  {
+                    "repoName": "Lona",
+                    "link": "https://github.com/airbnb/Lona",
+                    "files": [],
+                    "lastDetectedAt": "2019-12-28",
+                    "confidence": 100,
+                    "languageDetected": true
+                  },
+                  {
+                    "repoName": "alerts",
+                    "link": "https://github.com/airbnb/alerts",
+                    "files": [],
+                    "lastDetectedAt": "2019-12-28",
+                    "confidence": 100,
+                    "languageDetected": true
+                  },
+                  {
+                    "repoName": "plog-ruby",
+                    "link": "https://github.com/airbnb/plog-ruby",
+                    "files": [],
+                    "lastDetectedAt": "2019-12-28",
+                    "confidence": 100,
+                    "languageDetected": true
+                  },
+                  {
+                    "repoName": "nerve",
+                    "link": "https://github.com/airbnb/nerve",
+                    "files": [],
+                    "lastDetectedAt": "2019-12-28",
+                    "confidence": 100,
+                    "languageDetected": true
+                  },
+                  {
+                    "repoName": "alerts",
+                    "link": "https://github.com/airbnb/alerts",
+                    "files": [],
+                    "lastDetectedAt": "2019-12-28",
+                    "confidence": 100,
+                    "languageDetected": true
+                  },
+                  {
+                    "repoName": "AloeStackView",
+                    "link": "https://github.com/airbnb/AloeStackView",
+                    "files": [],
+                    "lastDetectedAt": "2019-12-28",
+                    "confidence": 100,
+                    "languageDetected": true
+                  },
+                  {
+                    "repoName": "paris",
+                    "link": "https://github.com/airbnb/paris",
+                    "files": [],
+                    "lastDetectedAt": "2019-12-28",
+                    "confidence": 100,
+                    "languageDetected": true
+                  },
+                  {
+                    "repoName": "hammerspace",
+                    "link": "https://github.com/airbnb/hammerspace",
+                    "files": [],
+                    "lastDetectedAt": "2019-12-28",
+                    "confidence": 100,
+                    "languageDetected": true
+                  },
+                  {
+                    "repoName": "BuckSample",
+                    "link": "https://github.com/airbnb/BuckSample",
+                    "files": [],
+                    "lastDetectedAt": "2019-12-28",
+                    "confidence": 100,
+                    "languageDetected": true
+                  },
+                  {
+                    "repoName": "apple-tv-auth",
+                    "link": "https://github.com/airbnb/apple-tv-auth",
+                    "files": [],
+                    "lastDetectedAt": "2019-12-28",
+                    "confidence": 100,
+                    "languageDetected": true
+                  },
+                  {
+                    "repoName": "hypernova-ruby",
+                    "link": "https://github.com/airbnb/hypernova-ruby",
+                    "files": [],
+                    "lastDetectedAt": "2019-12-28",
+                    "confidence": 100,
+                    "languageDetected": true
+                  },
+                  {
+                    "repoName": "lottie-ios",
+                    "link": "https://github.com/airbnb/lottie-ios",
+                    "files": [],
+                    "lastDetectedAt": "2019-12-28",
+                    "confidence": 100,
+                    "languageDetected": true
+                  },
+                  {
+                    "repoName": "cryo",
+                    "link": "https://github.com/airbnb/cryo",
+                    "files": [],
+                    "lastDetectedAt": "2019-12-28",
+                    "confidence": 100,
+                    "languageDetected": true
+                  },
+                  {
+                    "repoName": "collapstring",
+                    "link": "https://github.com/airbnb/collapstring",
+                    "files": [],
+                    "lastDetectedAt": "2019-12-28",
+                    "confidence": 100,
+                    "languageDetected": true
+                  },
+                  {
+                    "repoName": "interferon",
+                    "link": "https://github.com/airbnb/interferon",
+                    "files": [],
+                    "lastDetectedAt": "2019-12-28",
+                    "confidence": 100,
+                    "languageDetected": true
+                  },
+                  {
+                    "repoName": "kafkat",
+                    "link": "https://github.com/airbnb/kafkat",
+                    "files": [],
+                    "lastDetectedAt": "2019-12-28",
+                    "confidence": 100,
+                    "languageDetected": true
+                  },
+                  {
+                    "repoName": "MagazineLayout",
+                    "link": "https://github.com/airbnb/MagazineLayout",
+                    "files": [],
+                    "lastDetectedAt": "2019-12-28",
+                    "confidence": 100,
+                    "languageDetected": true
+                  },
+                  {
+                    "repoName": "epoxy",
+                    "link": "https://github.com/airbnb/epoxy",
+                    "files": [],
+                    "lastDetectedAt": "2019-12-28",
+                    "confidence": 100,
+                    "languageDetected": true
+                  }
+                ],
+                "selfReported": [
+                  {
+                    "lastReportedAt": "2015-08-26",
+                    "confidence": 100
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "node": {
+              "tool": {
+                "id": "VG9vbC02Nzk=",
+                "name": "React"
+              },
+              "sourcesSummary": {
+                "githubRepositories": 28,
+                "websiteSources": 46,
+                "selfReported": 1
+              },
+              "sources": {
+                "websiteSource": [
+                  {
+                    "domain": "airbnb.com",
+                    "lastDetectedAt": "2020-02-05",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "next.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "ar.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "ca.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "api-fastly.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "cs.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "da.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "el.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "de.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "fastly-staging.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "es.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "fi.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "he.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "hi.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "hu.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "id.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "is.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "it.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "ja.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "ko.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "ms.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "no.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "pl.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "pt.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "s.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "fr.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "aribnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "th.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "ru.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "abnb.me",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "zh.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "nl.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "hr.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "fastly-dev.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "tl.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "sv.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "tr.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "create.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "api-fastly-staging.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "transparency.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "publicpolicy.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "www.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "m.airbnb.com",
+                    "lastDetectedAt": "2019-11-20",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "fastly.airbnb.com",
+                    "lastDetectedAt": "2019-11-20",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "airbedandbreakfast.com",
+                    "lastDetectedAt": "2019-10-05",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "airbrb.com",
+                    "lastDetectedAt": "2019-10-05",
+                    "confidence": 100
+                  }
+                ],
+                "githubRepository": [
+                  {
+                    "repoName": "hypernova-amp",
+                    "link": "https://github.com/airbnb/hypernova-amp",
+                    "files": [
+                      "package.json"
+                    ],
+                    "lastDetectedAt": "2020-03-21",
+                    "confidence": null,
+                    "languageDetected": false
+                  },
+                  {
+                    "repoName": "hypernova-amp",
+                    "link": "https://github.com/airbnb/hypernova-amp",
+                    "files": [
+                      "package.json"
+                    ],
+                    "lastDetectedAt": "2020-03-21",
+                    "confidence": null,
+                    "languageDetected": false
+                  },
+                  {
+                    "repoName": "incubator-superset",
+                    "link": "https://github.com/airbnb/incubator-superset",
+                    "files": [
+                      "superset/assets/package.json"
+                    ],
+                    "lastDetectedAt": "2020-03-21",
+                    "confidence": null,
+                    "languageDetected": false
+                  },
+                  {
+                    "repoName": "incubator-superset",
+                    "link": "https://github.com/airbnb/incubator-superset",
+                    "files": [
+                      "superset/assets/package.json"
+                    ],
+                    "lastDetectedAt": "2020-03-21",
+                    "confidence": null,
+                    "languageDetected": false
+                  },
+                  {
+                    "repoName": "incubator-superset",
+                    "link": "https://github.com/airbnb/incubator-superset",
+                    "files": [
+                      "superset/assets/package.json"
+                    ],
+                    "lastDetectedAt": "2020-03-21",
+                    "confidence": null,
+                    "languageDetected": false
+                  },
+                  {
+                    "repoName": "incubator-superset",
+                    "link": "https://github.com/airbnb/incubator-superset",
+                    "files": [
+                      "superset/assets/package.json"
+                    ],
+                    "lastDetectedAt": "2020-03-21",
+                    "confidence": null,
+                    "languageDetected": false
+                  },
+                  {
+                    "repoName": "prop-types",
+                    "link": "https://github.com/airbnb/prop-types",
+                    "files": [
+                      "package.json"
+                    ],
+                    "lastDetectedAt": "2020-03-21",
+                    "confidence": null,
+                    "languageDetected": false
+                  },
+                  {
+                    "repoName": "native-navigation",
+                    "link": "https://github.com/airbnb/native-navigation",
+                    "files": [
+                      "package.json"
+                    ],
+                    "lastDetectedAt": "2020-03-21",
+                    "confidence": null,
+                    "languageDetected": false
+                  },
+                  {
+                    "repoName": "javascript",
+                    "link": "https://github.com/airbnb/javascript",
+                    "files": [
+                      "packages/eslint-config-airbnb/package.json"
+                    ],
+                    "lastDetectedAt": "2020-03-21",
+                    "confidence": null,
+                    "languageDetected": false
+                  },
+                  {
+                    "repoName": "hypernova-react",
+                    "link": "https://github.com/airbnb/hypernova-react",
+                    "files": [
+                      "package.json"
+                    ],
+                    "lastDetectedAt": "2020-03-21",
+                    "confidence": null,
+                    "languageDetected": false
+                  },
+                  {
+                    "repoName": "hypernova-react",
+                    "link": "https://github.com/airbnb/hypernova-react",
+                    "files": [
+                      "package.json"
+                    ],
+                    "lastDetectedAt": "2020-03-21",
+                    "confidence": null,
+                    "languageDetected": false
+                  },
+                  {
+                    "repoName": "babel-plugin-inline-react-svg",
+                    "link": "https://github.com/airbnb/babel-plugin-inline-react-svg",
+                    "files": [
+                      "package.json"
+                    ],
+                    "lastDetectedAt": "2020-03-21",
+                    "confidence": null,
+                    "languageDetected": false
+                  },
+                  {
+                    "repoName": "prop-types-exact",
+                    "link": "https://github.com/airbnb/prop-types-exact",
+                    "files": [
+                      "package.json"
+                    ],
+                    "lastDetectedAt": "2020-03-21",
+                    "confidence": null,
+                    "languageDetected": false
+                  },
+                  {
+                    "repoName": "hypernova-aphrodite",
+                    "link": "https://github.com/airbnb/hypernova-aphrodite",
+                    "files": [
+                      "package.json"
+                    ],
+                    "lastDetectedAt": "2020-03-21",
+                    "confidence": null,
+                    "languageDetected": false
+                  },
+                  {
+                    "repoName": "hypernova-aphrodite",
+                    "link": "https://github.com/airbnb/hypernova-aphrodite",
+                    "files": [
+                      "package.json"
+                    ],
+                    "lastDetectedAt": "2020-03-21",
+                    "confidence": null,
+                    "languageDetected": false
+                  },
+                  {
+                    "repoName": "hypernova",
+                    "link": "https://github.com/airbnb/hypernova",
+                    "files": [
+                      "examples/simple/package.json"
+                    ],
+                    "lastDetectedAt": "2020-03-21",
+                    "confidence": null,
+                    "languageDetected": false
+                  },
+                  {
+                    "repoName": "hypernova",
+                    "link": "https://github.com/airbnb/hypernova",
+                    "files": [
+                      "examples/simple/package.json"
+                    ],
+                    "lastDetectedAt": "2020-03-21",
+                    "confidence": null,
+                    "languageDetected": false
+                  },
+                  {
+                    "repoName": "babel-plugin-inline-react-svg",
+                    "link": "https://github.com/airbnb/babel-plugin-inline-react-svg",
+                    "files": [
+                      "package.json"
+                    ],
+                    "lastDetectedAt": "2020-03-21",
+                    "confidence": null,
+                    "languageDetected": false
+                  },
+                  {
+                    "repoName": "lunar",
+                    "link": "https://github.com/airbnb/lunar",
+                    "files": [
+                      "packages/icons/package.json"
+                    ],
+                    "lastDetectedAt": "2020-03-21",
+                    "confidence": null,
+                    "languageDetected": false
+                  },
+                  {
+                    "repoName": "lunar",
+                    "link": "https://github.com/airbnb/lunar",
+                    "files": [
+                      "packages/composer/package.json"
+                    ],
+                    "lastDetectedAt": "2020-03-21",
+                    "confidence": null,
+                    "languageDetected": false
+                  },
+                  {
+                    "repoName": "lunar",
+                    "link": "https://github.com/airbnb/lunar",
+                    "files": [
+                      "packages/apollo/package.json"
+                    ],
+                    "lastDetectedAt": "2020-03-21",
+                    "confidence": null,
+                    "languageDetected": false
+                  },
+                  {
+                    "repoName": "lunar",
+                    "link": "https://github.com/airbnb/lunar",
+                    "files": [
+                      "packages/core/package.json"
+                    ],
+                    "lastDetectedAt": "2020-03-21",
+                    "confidence": null,
+                    "languageDetected": false
+                  },
+                  {
+                    "repoName": "Lona",
+                    "link": "https://github.com/airbnb/Lona",
+                    "files": [
+                      "examples/LonaViewer/web/package.json"
+                    ],
+                    "lastDetectedAt": "2020-03-21",
+                    "confidence": null,
+                    "languageDetected": false
+                  },
+                  {
+                    "repoName": "Lona",
+                    "link": "https://github.com/airbnb/Lona",
+                    "files": [
+                      "examples/LonaViewer/web/package.json"
+                    ],
+                    "lastDetectedAt": "2020-03-21",
+                    "confidence": null,
+                    "languageDetected": false
+                  },
+                  {
+                    "repoName": "airpal",
+                    "link": "https://github.com/airbnb/airpal",
+                    "files": [
+                      "src/main/resources/assets/package.json"
+                    ],
+                    "lastDetectedAt": "2020-03-21",
+                    "confidence": null,
+                    "languageDetected": false
+                  },
+                  {
+                    "repoName": "enzyme",
+                    "link": "https://github.com/airbnb/enzyme",
+                    "files": [
+                      "packages/enzyme-adapter-react-helper/package.json"
+                    ],
+                    "lastDetectedAt": "2020-03-21",
+                    "confidence": null,
+                    "languageDetected": false
+                  },
+                  {
+                    "repoName": "enzyme",
+                    "link": "https://github.com/airbnb/enzyme",
+                    "files": [
+                      "packages/enzyme-example-mocha/package.json"
+                    ],
+                    "lastDetectedAt": "2020-03-21",
+                    "confidence": null,
+                    "languageDetected": false
+                  },
+                  {
+                    "repoName": "airpal",
+                    "link": "https://github.com/airbnb/airpal",
+                    "files": [
+                      "src/main/resources/assets/package.json"
+                    ],
+                    "lastDetectedAt": "2020-03-21",
+                    "confidence": null,
+                    "languageDetected": false
+                  }
+                ],
+                "selfReported": [
+                  {
+                    "lastReportedAt": "2015-08-26",
+                    "confidence": 100
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "node": {
+              "tool": {
+                "id": "VG9vbC01NjY=",
+                "name": "nginx"
+              },
+              "sourcesSummary": {
+                "githubRepositories": 3,
+                "websiteSources": 49,
+                "selfReported": 1
+              },
+              "sources": {
+                "websiteSource": [
+                  {
+                    "domain": "airbnb.com",
+                    "lastDetectedAt": "2020-02-05",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "next.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "ar.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "blog.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "ca.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "api-fastly.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "cs.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "de.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "da.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "el.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "fastly-staging.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "es.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "fi.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "he.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "hi.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "hu.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "id.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "is.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "it.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "ja.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "ko.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "ms.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "no.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "press.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "pl.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "pt.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "s.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "fr.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "aribnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "careers.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "th.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "abnb.me",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "ru.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "tl.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "news.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "zh.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "nl.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "hr.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "fastly-dev.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "protools.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "sv.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "tr.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "create.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "api-fastly-staging.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "airbedandbreakfast.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "airbrb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "www.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "m.airbnb.com",
+                    "lastDetectedAt": "2019-11-20",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "fastly.airbnb.com",
+                    "lastDetectedAt": "2019-11-20",
+                    "confidence": 100
+                  }
+                ],
+                "githubRepository": [
+                  {
+                    "repoName": "docker-registry",
+                    "link": "https://github.com/airbnb/docker-registry",
+                    "files": [
+                      "nginx.conf"
+                    ],
+                    "lastDetectedAt": "2020-03-18",
+                    "confidence": 100,
+                    "languageDetected": false
+                  },
+                  {
+                    "repoName": "dd-agent",
+                    "link": "https://github.com/airbnb/dd-agent",
+                    "files": [
+                      "ci/resources/nginx/nginx.conf"
+                    ],
+                    "lastDetectedAt": "2019-12-23",
+                    "confidence": 100,
+                    "languageDetected": false
+                  },
+                  {
+                    "repoName": "dd-agent",
+                    "link": "https://github.com/airbnb/dd-agent",
+                    "files": [
+                      "ci/resources/phpfpm/nginx.conf"
+                    ],
+                    "lastDetectedAt": "2019-12-23",
+                    "confidence": 100,
+                    "languageDetected": false
+                  }
+                ],
+                "selfReported": [
+                  {
+                    "lastReportedAt": "2015-08-26",
+                    "confidence": 100
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "node": {
+              "tool": {
+                "id": "VG9vbC02OTk=",
+                "name": "Rails"
+              },
+              "sourcesSummary": {
+                "githubRepositories": 4,
+                "websiteSources": 45,
+                "selfReported": 1
+              },
+              "sources": {
+                "websiteSource": [
+                  {
+                    "domain": "airbnb.com",
+                    "lastDetectedAt": "2020-02-05",
+                    "confidence": 50
+                  },
+                  {
+                    "domain": "next.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 50
+                  },
+                  {
+                    "domain": "ar.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 50
+                  },
+                  {
+                    "domain": "ca.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 50
+                  },
+                  {
+                    "domain": "api-fastly.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 50
+                  },
+                  {
+                    "domain": "cs.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 50
+                  },
+                  {
+                    "domain": "da.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 50
+                  },
+                  {
+                    "domain": "el.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 50
+                  },
+                  {
+                    "domain": "de.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 50
+                  },
+                  {
+                    "domain": "fastly-staging.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 50
+                  },
+                  {
+                    "domain": "es.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 50
+                  },
+                  {
+                    "domain": "fi.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 50
+                  },
+                  {
+                    "domain": "he.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 50
+                  },
+                  {
+                    "domain": "hi.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 50
+                  },
+                  {
+                    "domain": "hu.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 50
+                  },
+                  {
+                    "domain": "id.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 50
+                  },
+                  {
+                    "domain": "is.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 50
+                  },
+                  {
+                    "domain": "it.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 50
+                  },
+                  {
+                    "domain": "ja.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 50
+                  },
+                  {
+                    "domain": "ko.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 50
+                  },
+                  {
+                    "domain": "ms.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 50
+                  },
+                  {
+                    "domain": "no.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 50
+                  },
+                  {
+                    "domain": "pl.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 50
+                  },
+                  {
+                    "domain": "pt.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 50
+                  },
+                  {
+                    "domain": "s.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 50
+                  },
+                  {
+                    "domain": "aribnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 50
+                  },
+                  {
+                    "domain": "fr.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 50
+                  },
+                  {
+                    "domain": "ru.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 50
+                  },
+                  {
+                    "domain": "support.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 50
+                  },
+                  {
+                    "domain": "abnb.me",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 50
+                  },
+                  {
+                    "domain": "zh.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 50
+                  },
+                  {
+                    "domain": "nl.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 50
+                  },
+                  {
+                    "domain": "hr.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 50
+                  },
+                  {
+                    "domain": "th.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 50
+                  },
+                  {
+                    "domain": "fastly-dev.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 50
+                  },
+                  {
+                    "domain": "tl.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 50
+                  },
+                  {
+                    "domain": "sv.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 50
+                  },
+                  {
+                    "domain": "tr.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 50
+                  },
+                  {
+                    "domain": "create.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 50
+                  },
+                  {
+                    "domain": "api-fastly-staging.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 50
+                  },
+                  {
+                    "domain": "airbedandbreakfast.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 50
+                  },
+                  {
+                    "domain": "airbrb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 50
+                  },
+                  {
+                    "domain": "www.airbnb.com",
+                    "lastDetectedAt": "2020-02-03",
+                    "confidence": 50
+                  },
+                  {
+                    "domain": "m.airbnb.com",
+                    "lastDetectedAt": "2019-11-20",
+                    "confidence": 50
+                  },
+                  {
+                    "domain": "fastly.airbnb.com",
+                    "lastDetectedAt": "2019-11-20",
+                    "confidence": 50
+                  }
+                ],
+                "githubRepository": [
+                  {
+                    "repoName": "brakeman",
+                    "link": "https://github.com/airbnb/brakeman",
+                    "files": [
+                      "test/apps/rails_with_xss_plugin/Gemfile"
+                    ],
+                    "lastDetectedAt": "2020-03-21",
+                    "confidence": null,
+                    "languageDetected": false
+                  },
+                  {
+                    "repoName": "brakeman",
+                    "link": "https://github.com/airbnb/brakeman",
+                    "files": [
+                      "test/apps/rails3.1/Gemfile"
+                    ],
+                    "lastDetectedAt": "2020-03-21",
+                    "confidence": null,
+                    "languageDetected": false
+                  },
+                  {
+                    "repoName": "hypernova",
+                    "link": "https://github.com/airbnb/hypernova",
+                    "files": [
+                      "examples/simple/Gemfile"
+                    ],
+                    "lastDetectedAt": "2020-03-21",
+                    "confidence": null,
+                    "languageDetected": false
+                  },
+                  {
+                    "repoName": "brakeman",
+                    "link": "https://github.com/airbnb/brakeman",
+                    "files": [
+                      "test/apps/rails4/Gemfile"
+                    ],
+                    "lastDetectedAt": "2020-03-21",
+                    "confidence": null,
+                    "languageDetected": false
+                  }
+                ],
+                "selfReported": [
+                  {
+                    "lastReportedAt": "2014-11-06",
+                    "confidence": 100
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "node": {
+              "tool": {
+                "id": "VG9vbC0zOTk=",
+                "name": "Java"
+              },
+              "sourcesSummary": {
+                "githubRepositories": 19,
+                "websiteSources": 2,
+                "selfReported": 1
+              },
+              "sources": {
+                "websiteSource": [
+                  {
+                    "domain": "blog.airbnb.com",
+                    "lastDetectedAt": "2019-04-11",
+                    "confidence": 100
+                  },
+                  {
+                    "domain": "press.airbnb.com",
+                    "lastDetectedAt": "2019-04-11",
+                    "confidence": 100
+                  }
+                ],
+                "githubRepository": [
+                  {
+                    "repoName": "aerosolve",
+                    "link": "https://github.com/airbnb/aerosolve",
+                    "files": [],
+                    "lastDetectedAt": "2019-12-28",
+                    "confidence": 100,
+                    "languageDetected": true
+                  },
+                  {
+                    "repoName": "native-navigation",
+                    "link": "https://github.com/airbnb/native-navigation",
+                    "files": [],
+                    "lastDetectedAt": "2019-12-28",
+                    "confidence": 100,
+                    "languageDetected": true
+                  },
+                  {
+                    "repoName": "okreplay",
+                    "link": "https://github.com/airbnb/okreplay",
+                    "files": [],
+                    "lastDetectedAt": "2019-12-28",
+                    "confidence": 100,
+                    "languageDetected": true
+                  },
+                  {
+                    "repoName": "AirMapView",
+                    "link": "https://github.com/airbnb/AirMapView",
+                    "files": [],
+                    "lastDetectedAt": "2019-12-28",
+                    "confidence": 100,
+                    "languageDetected": true
+                  },
+                  {
+                    "repoName": "billow",
+                    "link": "https://github.com/airbnb/billow",
+                    "files": [],
+                    "lastDetectedAt": "2019-12-28",
+                    "confidence": 100,
+                    "languageDetected": true
+                  },
+                  {
+                    "repoName": "chancery",
+                    "link": "https://github.com/airbnb/chancery",
+                    "files": [],
+                    "lastDetectedAt": "2019-12-28",
+                    "confidence": 100,
+                    "languageDetected": true
+                  },
+                  {
+                    "repoName": "kafka-statsd-metrics2",
+                    "link": "https://github.com/airbnb/kafka-statsd-metrics2",
+                    "files": [],
+                    "lastDetectedAt": "2019-12-28",
+                    "confidence": 100,
+                    "languageDetected": true
+                  },
+                  {
+                    "repoName": "MvRx",
+                    "link": "https://github.com/airbnb/MvRx",
+                    "files": [],
+                    "lastDetectedAt": "2019-12-28",
+                    "confidence": 100,
+                    "languageDetected": true
+                  },
+                  {
+                    "repoName": "airpal",
+                    "link": "https://github.com/airbnb/airpal",
+                    "files": [],
+                    "lastDetectedAt": "2019-12-28",
+                    "confidence": 100,
+                    "languageDetected": true
+                  },
+                  {
+                    "repoName": "AirMapView",
+                    "link": "https://github.com/airbnb/AirMapView",
+                    "files": [],
+                    "lastDetectedAt": "2019-12-28",
+                    "confidence": 100,
+                    "languageDetected": true
+                  },
+                  {
+                    "repoName": "plog",
+                    "link": "https://github.com/airbnb/plog",
+                    "files": [],
+                    "lastDetectedAt": "2019-12-28",
+                    "confidence": 100,
+                    "languageDetected": true
+                  },
+                  {
+                    "repoName": "airpal",
+                    "link": "https://github.com/airbnb/airpal",
+                    "files": [],
+                    "lastDetectedAt": "2019-12-28",
+                    "confidence": 100,
+                    "languageDetected": true
+                  },
+                  {
+                    "repoName": "billow",
+                    "link": "https://github.com/airbnb/billow",
+                    "files": [],
+                    "lastDetectedAt": "2019-12-28",
+                    "confidence": 100,
+                    "languageDetected": true
+                  },
+                  {
+                    "repoName": "aerosolve",
+                    "link": "https://github.com/airbnb/aerosolve",
+                    "files": [],
+                    "lastDetectedAt": "2019-12-28",
+                    "confidence": 100,
+                    "languageDetected": true
+                  },
+                  {
+                    "repoName": "paris",
+                    "link": "https://github.com/airbnb/paris",
+                    "files": [],
+                    "lastDetectedAt": "2019-12-28",
+                    "confidence": 100,
+                    "languageDetected": true
+                  },
+                  {
+                    "repoName": "lottie-android",
+                    "link": "https://github.com/airbnb/lottie-android",
+                    "files": [],
+                    "lastDetectedAt": "2019-12-28",
+                    "confidence": 100,
+                    "languageDetected": true
+                  },
+                  {
+                    "repoName": "collapstring",
+                    "link": "https://github.com/airbnb/collapstring",
+                    "files": [],
+                    "lastDetectedAt": "2019-12-28",
+                    "confidence": 100,
+                    "languageDetected": true
+                  },
+                  {
+                    "repoName": "DeepLinkDispatch",
+                    "link": "https://github.com/airbnb/DeepLinkDispatch",
+                    "files": [],
+                    "lastDetectedAt": "2019-12-28",
+                    "confidence": 100,
+                    "languageDetected": true
+                  },
+                  {
+                    "repoName": "epoxy",
+                    "link": "https://github.com/airbnb/epoxy",
+                    "files": [],
+                    "lastDetectedAt": "2019-12-28",
+                    "confidence": 100,
+                    "languageDetected": true
+                  }
+                ],
+                "selfReported": [
+                  {
+                    "lastReportedAt": "2015-08-26",
+                    "confidence": 100
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}
