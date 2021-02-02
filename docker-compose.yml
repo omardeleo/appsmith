@@ -66,6 +66,22 @@ services:
     networks:
       - appsmith
 
+  postgres:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: example
+      PGDATA: '/var/lib/postgresql/data/pgdata'
+    volumes:
+      - 'postgres:/var/lib/postgresql/data'
+    ports:
+      - '5432:5432'
+    networks:
+      - appsmith
+
+volumes:
+  postgres:
+
 networks:
   appsmith:
     driver: bridge
