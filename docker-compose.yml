@@ -66,6 +66,21 @@ services:
     networks:
       - appsmith
 
+  express:
+    build:
+      context: ./express
+      dockerfile: Dockerfile
+    ports:
+      - '3001:3001'
+    volumes:
+      - './express/src:/app/src'
+      - './express/src/csv/:/csv'
+      - './express/saved_csv/:/saved_csv'
+      - './express/screenshots/:/screenshots'
+      - './express/src/debug/:/debug'
+    networks:
+      - appsmith
+
   postgres:
     image: postgres
     restart: always
